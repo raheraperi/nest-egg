@@ -2,7 +2,6 @@ import React from 'react'
 import {Route} from 'react-router-dom'
 
 import About from './About'
-import Homegraph from './Homegraph'
 import Homebuttons from './Homebuttons'
 
 const Home = () => {
@@ -15,9 +14,6 @@ const Home = () => {
         <Route path='/' component={Homebuttons} />
       </div>
 
-      <div className='homegraph column'>
-        <Route path='/' component={Homegraph} />
-      </div>
     </div>
   )
 }
